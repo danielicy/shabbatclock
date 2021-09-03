@@ -1,0 +1,29 @@
+.title{
+    font-weight: bold;
+}
+
+.delete{
+    width: 20;
+    height: 20;
+    horizontal-align: right;
+    border-radius: 80;
+    color:white ;
+    font-weight: bold;
+    padding: 0.05em;  
+    background: rgb(34,34,34);
+    background: linear-gradient(90deg, rgba(34,34,34,1) 0%, rgba(145,145,145,1) 46%, rgba(0,0,0,1) 100%); 
+}
+
+.back{
+    width: 50;
+    height: 50;
+    horizontal-align: left;
+    background-color: rgb(167, 180, 255);
+    font-weight: bold;
+    font-size: xx-large;
+    color: white;
+    content: ' \003C';
+  }
+
+ 
+

@@ -1,0 +1,23 @@
+<ActionBar title="Posts">
+  <StackLayout  horizontalAlignment=left>
+   
+    <Button   (tap)="back()"  text="<" class="back" > 
+  </Button>
+  </StackLayout>
+
+</ActionBar>
+<StackLayout>
+    <ListView height="100%" [items]="posts">
+      <ng-template let-post="item">
+        <StackLayout>
+          <Button class="delete" text="X" (tap)="delete(post)" >
+            
+          </Button>
+          <Label class="title" [text]="post.title"></Label>
+          <TextView [text]="post.body" ></TextView>
+        </StackLayout>
+      </ng-template>
+    </ListView>
+  </StackLayout>
+
+  
